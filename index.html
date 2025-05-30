@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Web Portfolio</title>
+    <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+<header>
+    <h1>LIZZY's Folio</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+    </nav>
+</header>
+<main>
+    <div class="profile-container">
+        <img class="profile-pic" src="pic.jpg" alt="Profile Picture" />
+        <div class="profile-info">
+            <h2>Liezel A. Nilo</h2>
+            <p class="role">Graphic Designer & UI/UX Designer</p>
+        </div>
+    </div>
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-text">
+            <p>Hello! I'm Liezel Nilo, a passionate graphic designer and UI/UX Designer with 6 years of experience creating engaging, accessible, and user-friendly digital experiences. I enjoy bringing creative ideas to life.</p>
+        </div>
+        <div class="info-columns" aria-label="Personal information">
+            <div class="info-box" onclick>
+                <h3>Skills</h3>
+                <ul class="skills-list" aria-label="Skills list">
+                    <li>Animation</li>
+                    <li>CSS3 & Sass</li>
+                    <li>Graphic Design</li>
+                    <li>Figma</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+            <div class="info-box" onclick>
+                <h3>Experience</h3>
+                <ul class="experience-list" aria-label="Experience list">
+                    <li>Animator - BrightFuture Inc. (2019 - Present)</li>
+                    <li>UI/UX Designer - Creative Minds Studio (2017 - 2019)</li>
+                    <li>Junior Web Developer - SoftCode Labs (2015 - 2017)</li>
+                </ul>
+            </div>
+            <div class="info-box" onclick>
+                <h3>Achievements</h3>
+                <ul class="achievements-list" aria-label="Achievements list">
+                    <li>Led redesign of BrightFuture’s website, boosting traffic 40%</li>
+                    <li>Speaker at Frontend Conf 2023 on React performance best practices</li>
+                    <li>Winner of the 2018 Creative Web Design Award</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid" aria-label="Projects showcase">
+            <article class="project-card" onclick>
+                <img class="project-image" src="xmas.png" alt="Online Shopping" />
+                <div class="project-content">
+                    <h3 class="project-title">Online Shopping</h3>
+                    <p class="project-desc">Christmas Shopping</p>
+                    <a class="project-link" href="https://www.figma.com/proto/M0TL8hOi0J8AIiamKcVkQu/Christmas-Shop?node-id=0-1&t=xeL7NN81UkrF4OH3-1" target="_blank" rel="noopener">VIEW</a>
+                </div>
+            </article>
+            <article class="project-card" onclick>
+                <img class="project-image" src="freelance.png" alt="Freelance App" />
+                <div class="project-content">
+                    <h3 class="project-title">Freelance App</h3>
+                    <p class="project-desc">eTRABAHO</p>
+                    <a class="project-link" href="https://www.figma.com/proto/pruVu2CLcU3FLK3r6jyinp/Untitled?t=DHEvYpitL0yghSc6-1" target="_blank" rel="noopener">VIEW</a>
+                </div>
+            </article>
+            <article class="project-card" onclick>
+                <img class="project-image" src="flyers.png" alt="Canva Projects" />
+                <div class="project-content">
+                    <h3 class="project-title">Flyers</h3>
+                    <p class="project-desc">Strategic Level</p>
+                    <a class="project-link" href="C:\Users\Acer\Downloads\LIZZY's FOLIO\Flyers.pdf" target="_blank" rel="noopener">VIEW</a>
+                </div>
+            </article>
+            <article class="project-card" onclick>
+                <img class="project-image" src="journall.png" alt="Journal" />
+                <div class="project-content">
+                    <h3 class="project-title">Journal</h3>
+                    <p class="project-desc">22 Days with Lizzy</p>
+                    <a class="project-link" href="C:\Users\Acer\Downloads\LIZZY's FOLIO\Journal.pdf" target="_blank" rel="noopener">VIEW</a>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Connect with me on social media:</p>
+    <div class="social-links" role="region" aria-label="Social media links">
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">FACEBOOK</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">INSTAGRAM</a>
+    </div>
+</footer>
+<script src="java.js"></script>
+</body>
+</html>
